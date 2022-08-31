@@ -1,0 +1,57 @@
+.intro{
+    background-image: url(../images/girl.png);
+    background-repeat: no-repeat;
+    background-position: right  top 150px;
+    margin-bottom: 100px;
+
+}
+
+
+.intro-img{
+    padding-top: 109px;
+    padding-bottom: 108px;
+}
+@media screen and (min-width: 1724px) {
+    .intro__inner{
+        max-width: 750px;
+    }
+
+
+}
+@media screen  and (max-width: 1260px) {
+    .intro{
+        background-position: bottom center;
+        background-size: 550px 500px;
+        padding-bottom: 400px;
+        margin-bottom: 50px;
+    }
+    .intro__container{
+        justify-content: center;
+    }
+
+    .intro-img{
+        padding-top: 60px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container__inner{
+        padding-bottom: 50px;
+    }
+
+}
+@media screen and (max-width: 564px) {
+    .intro{
+        background-size: 450px 400px;
+
+    }
+    .intro-img{
+        max-width: 400px;
+        padding-top: 0;
+    }
+}
+@media screen and (max-width: 384px) {
+    .intro-img{
+        max-width: 300px;
+        padding-top: 0;
+    }
+}
