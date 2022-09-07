@@ -1,0 +1,91 @@
+.d-flex input{
+    margin: .9em 0;
+}
+.d-flex button{
+    margin: 1.5em .6em;
+    padding: .3em 1.8em;
+}
+.basic-btn {
+    display: block;
+    margin: 0;
+}
+.basic-btn button{
+    margin-top: 0;
+}
+#btn-count{
+    background-color: #ce96e3;
+    border-color: #ce96e3;
+}
+#userid{
+    background-color: #e5e5e5;
+}
+
+.container table{
+    margin: 1em 10em;
+}
+
+#search-bar {
+    background-image: url('/images/search.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 70%; /* Full-width */
+    background-size: 20px;
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px;
+}
+
+table {
+    counter-reset: tableCount;   /* встановлюється лічільник */
+}
+
+
+table tr td:first-child::before {
+    content: counter(tableCount);  /* відображається лічільник */
+    counter-increment: tableCount; /* інкрементується лічільник */
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+table .btn-edit{
+    color: lightgreen;
+    cursor: pointer;
+    padding: 0 0.5em;
+}
+table .btn-delete{
+    color: orangered;
+    cursor: pointer;
+    padding: 0 0.8em;
+}
+#msg{
+    color: orangered;
+    font-weight: bold;
+    font-size: 18px;
+}
+#total-sum{
+    margin: 1em 0;
+    color: #67aa67;
+}
+#form .input-box{
+    position: relative;
+}
+#form.invalid .input-box:before{
+    content: '';
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+    background: url("/images/cancel.png");
+    background-size: cover;
+}
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+    box-shadow: none;
+}
+th {
+    cursor: pointer;
+}
