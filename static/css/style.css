@@ -1,0 +1,52 @@
+.btn-edit{
+    color: lightgreen;
+    cursor: pointer;
+    padding: 0 0.5em;
+}
+.btn-delete{
+    color: orangered;
+    cursor: pointer;
+    padding: 0 0.8em;
+}
+.search-bar{
+    margin: 10px 0;
+    background-image: url('/static/images/search.png');
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 70%; /* Full-width */
+    background-size:26px;
+    background-position: 10px;
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+
+}
+#total-sum{
+    margin: 1em 0;
+    color: #67aa67;
+}
+.form-group input{
+    border: 2px solid #dddddd;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+.form-group input:focus{
+    outline: 0;
+}
+.form-group.success input{
+    border-color: #67aa67;
+}
+.form-group.error input{
+    border-color: #ef3949;
+}
+.form-group .error{
+    color: #ef3949;
+    padding-top: 5px;
+    font-size: 13px;
+
+}
+#btn-sort{
+    background-color: hotpink;
+    border-color: hotpink;
+}
