@@ -1,2 +1,2 @@
 # Web-Design-Labs
-Here you can see  laboratory works for all the Web Technologies and Web Design which I coded during my 2 study year at LPNU IoT
+This code is second part of my laboratiry work 1 where i added some animation and made the website full responsible for 320px (iPhone 5s)  2560px (4K screens). 
