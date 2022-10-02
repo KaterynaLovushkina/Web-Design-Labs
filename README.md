@@ -1,2 +1,2 @@
 # Web-Design-Labs
-Here you can see  laboratory works for all the Web Technologies and Web Design which I coded during my 2 study year at LPNU IoT
+This is last part of my CRUD website where i added backend part using Flusk and database Sqlite
