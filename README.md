@@ -1,2 +1,2 @@
 # Web-Design-Labs
-Here you can see  laboratory works for all the Web Technologies and Web Design which I coded during my 2 study year at LPNU IoT
+In this work, i implemented  a  part of a websit with CRUD operation, sort , search option and count total price of the entities
