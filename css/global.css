@@ -1,0 +1,125 @@
+:root{
+    --clr-title: #091133;
+    --clr-paragraph: #6F7CB2;
+    --clr-heading:  #37447E;
+    --clr-sub-heading: #091133;
+    --clr-sub-paragraph: #5D6970;
+    --clr-link: #505f98;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-black: 900;
+
+    font-size: 16px;
+    --font-size-large: 24px;
+    --font-size-small: 12px;
+}
+body {
+    background: #fff;
+    font-family: "Roboto", sans-serif;
+    color: var(--clr-link);
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-link);
+}
+
+button {
+    border: 0;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+
+}
+li{
+    list-style-type: none;
+}
+
+/*-------------------------------- global classes -------------------------------------------*/
+
+.title {
+    font-weight: var(--font-black);
+    font-size: 1.625rem;
+    color: var(--clr-heading);
+
+    display: inline-block;
+}
+.heading {
+    font-weight: var(--font-medium);
+    font-size: 2.25rem;
+    line-height: 48px;
+    margin-top: 0;
+    color: var(--clr-sub-heading);
+}
+
+.paragraph {
+    margin-bottom: 16px;
+    line-height: 1.625rem;;
+    color: var(--clr-paragraph);
+    text-align: justify;
+    font-size: 1rem;
+
+}
+.container__inner{
+    max-width: 540px;
+    padding-top: 120px;
+    padding-bottom: 139px;
+    display: flex;
+    flex-direction: column;
+}
+.container_icon{
+    margin-top: 30px;
+}
+
+.icon{
+    display: inline-flex;
+    flex-direction: column;
+    margin: auto;
+}
+.icon_image{
+    height: 36px;
+}
+
+
+.icon_title{
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 14px;
+    padding-right: 0;
+    font-weight: var(--font-regular);
+    font-size: 1rem;
+    color: var(--clr-sub-heading);
+}
+.icon_text{
+    padding-top: 6px;
+    font-weight: var(--font-regular);
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    color: var(--clr-sub-paragraph);
+    max-width: 230px;
+}
+@media screen and (min-width: 1724px) {
+    :root{
+        font-size: var(--font-size-large);
+    }
+
+    .icon_image{
+        height: 50px;
+        margin-bottom: 15px;
+    }
+
+}
+@media screen and (max-width: 1024px) {
+    .container{
+        padding: 0 30px;
+    }
+}
+@media screen and (max-width: 564px) {
+    :root{
+        font-size: var(--font-size-small);
+    }
+}

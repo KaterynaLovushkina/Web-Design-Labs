@@ -1,0 +1,30 @@
+
+
+
+.head__tittle{
+    margin-bottom: 23px;
+}
+@media screen and (min-width: 1724px) {
+    .container__inner{
+        max-width: 750px;
+    }
+}
+@media screen  and (max-width: 1260px) {
+    .container__inner{
+        margin: auto;
+
+    }
+}@media screen and (max-width: 600px) {
+    :root{
+        font-size: var(--font-size-small);
+        text-align: center;
+    }
+    .container__inner{
+        padding-top: 80px;
+    }
+    .icon{
+        text-align: justify;
+    }
+
+
+}
